@@ -14,6 +14,17 @@
 		EC39A04820C7C41900807D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC39A04620C7C41900807D84 /* LaunchScreen.storyboard */; };
 		EC39A05320C7C41900807D84 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A05220C7C41900807D84 /* SampleTests.swift */; };
 		EC39A05E20C7C41900807D84 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A05D20C7C41900807D84 /* SampleUITests.swift */; };
+		EC39A06C20C8141400807D84 /* ExpandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC39A06B20C8141400807D84 /* ExpandCell.xib */; };
+		EC5EDECA20EB5BD10010E573 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5EDEC920EB5BD10010E573 /* TableCell.xib */; };
+		EC5EDECC20EB5D510010E573 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EDECB20EB5D510010E573 /* TableCell.swift */; };
+		EC958AB020D24AEC0068D3AE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC958AAE20D24AEC0068D3AE /* Model.xcdatamodeld */; };
+		EC9F466A20D001C900B13D40 /* edit-48.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9F466920D001C800B13D40 /* edit-48.png */; };
+		ECD51A4320C912F100712D3A /* addIconn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD51A4220C912F100712D3A /* addIconn@2x.png */; };
+		ECE640B120E122C90089E8CA /* action-item-addhoc.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE640AC20E122C80089E8CA /* action-item-addhoc.png */; };
+		ECE640B220E122C90089E8CA /* myrequest-addhoc.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE640AD20E122C80089E8CA /* myrequest-addhoc.png */; };
+		ECE640B320E122C90089E8CA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE640AE20E122C90089E8CA /* settings.png */; };
+		ECE640B420E122C90089E8CA /* myrequest-details.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE640AF20E122C90089E8CA /* myrequest-details.png */; };
+		ECE640B520E122C90089E8CA /* hub-start.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE640B020E122C90089E8CA /* hub-start.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		EC39A05920C7C41900807D84 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC39A05D20C7C41900807D84 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		EC39A05F20C7C41900807D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC39A06B20C8141400807D84 /* ExpandCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandCell.xib; sourceTree = "<group>"; };
+		EC5EDEC920EB5BD10010E573 /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		EC5EDECB20EB5D510010E573 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		EC958AAF20D24AEC0068D3AE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EC9F466920D001C800B13D40 /* edit-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-48.png"; sourceTree = "<group>"; };
+		ECD51A4220C912F100712D3A /* addIconn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addIconn@2x.png"; sourceTree = "<group>"; };
+		ECE640AC20E122C80089E8CA /* action-item-addhoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-item-addhoc.png"; sourceTree = "<group>"; };
+		ECE640AD20E122C80089E8CA /* myrequest-addhoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myrequest-addhoc.png"; sourceTree = "<group>"; };
+		ECE640AE20E122C90089E8CA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		ECE640AF20E122C90089E8CA /* myrequest-details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myrequest-details.png"; sourceTree = "<group>"; };
+		ECE640B020E122C90089E8CA /* hub-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hub-start.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +122,20 @@
 				EC39A03D20C7C41900807D84 /* AppDelegate.swift */,
 				EC39A03F20C7C41900807D84 /* ViewController.swift */,
 				EC39A04120C7C41900807D84 /* Main.storyboard */,
+				EC5EDEC920EB5BD10010E573 /* TableCell.xib */,
+				EC5EDECB20EB5D510010E573 /* TableCell.swift */,
+				EC958AAE20D24AEC0068D3AE /* Model.xcdatamodeld */,
+				EC39A06B20C8141400807D84 /* ExpandCell.xib */,
 				EC39A04420C7C41900807D84 /* Assets.xcassets */,
 				EC39A04620C7C41900807D84 /* LaunchScreen.storyboard */,
 				EC39A04920C7C41900807D84 /* Info.plist */,
+				ECE640AC20E122C80089E8CA /* action-item-addhoc.png */,
+				ECE640B020E122C90089E8CA /* hub-start.png */,
+				ECE640AD20E122C80089E8CA /* myrequest-addhoc.png */,
+				ECE640AF20E122C90089E8CA /* myrequest-details.png */,
+				ECE640AE20E122C90089E8CA /* settings.png */,
+				ECD51A4220C912F100712D3A /* addIconn@2x.png */,
+				EC9F466920D001C800B13D40 /* edit-48.png */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -233,8 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC39A04820C7C41900807D84 /* LaunchScreen.storyboard in Resources */,
+				ECE640B520E122C90089E8CA /* hub-start.png in Resources */,
+				ECD51A4320C912F100712D3A /* addIconn@2x.png in Resources */,
 				EC39A04520C7C41900807D84 /* Assets.xcassets in Resources */,
+				EC9F466A20D001C900B13D40 /* edit-48.png in Resources */,
 				EC39A04320C7C41900807D84 /* Main.storyboard in Resources */,
+				EC39A06C20C8141400807D84 /* ExpandCell.xib in Resources */,
+				ECE640B320E122C90089E8CA /* settings.png in Resources */,
+				ECE640B220E122C90089E8CA /* myrequest-addhoc.png in Resources */,
+				ECE640B420E122C90089E8CA /* myrequest-details.png in Resources */,
+				EC5EDECA20EB5BD10010E573 /* TableCell.xib in Resources */,
+				ECE640B120E122C90089E8CA /* action-item-addhoc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +303,8 @@
 			files = (
 				EC39A04020C7C41900807D84 /* ViewController.swift in Sources */,
 				EC39A03E20C7C41900807D84 /* AppDelegate.swift in Sources */,
+				EC5EDECC20EB5D510010E573 /* TableCell.swift in Sources */,
+				EC958AB020D24AEC0068D3AE /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CD3D64V8WU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrd.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,8 +487,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CD3D64V8WU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrd.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -558,6 +604,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC958AAE20D24AEC0068D3AE /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC958AAF20D24AEC0068D3AE /* Model.xcdatamodel */,
+			);
+			currentVersion = EC958AAF20D24AEC0068D3AE /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC39A03220C7C41900807D84 /* Project object */;
 }
