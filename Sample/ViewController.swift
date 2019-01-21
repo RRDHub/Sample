@@ -31,6 +31,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         self.expandData.append(["isOpen":"1","data":["banana"],"Title":"Section 3","text":"Hello World!"])
         label.text="This is the use case where UILabel content is variable. We want to keep the width fixed, but make height variable. Width can either be constrained to both ends or kept fixed in terms of fixed number for width This is the use case where UILabel content is variable. We want to keep the width fixed, but make height variable. Width can either be constrained to both ends or kept fixed in terms of fixed number for width"
         label2.text="This "
+        label2.text="This lfdkgaklfgakfg"
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
