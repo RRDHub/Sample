@@ -33,7 +33,11 @@ class ViewController: UIViewController,UITextFieldDelegate {
         label2.text="This "
         label2.text="This lfdkgaklfgakfg"
         label2.text="This testtststsf,.df.adf"
-        
+        label2.text="This 1,.df.adf"
+        label2.text="This 2,.df.adf"
+        label2.text="This 3,.df.adf"
+        label2.text="This 4,.df.adf"
+
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         
